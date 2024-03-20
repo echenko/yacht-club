@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"),
+    url("../fonts/Roboto/Roboto-Regular.ttf"),
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.page-html {
+  height: 100%;
+}
+
+.page-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+header {
+  font-family: "Roboto";
+}
+
+.navigation-list {
+  font-family: "Roboto";
+}
