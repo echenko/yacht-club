@@ -10,27 +10,190 @@
 
 <body class="page-body">
 
-</body>
-
   <header class="page-header">
     <a class="header-logo" href="#">
-      <img src="#" alt="Логотип сайта Под парусом">
+      <img src="image/logo/header-logo.png" alt="Логотип сайта Под парусом" width="64" height="68">
     </a>
     <nav class="navigation">
-      <ul class="navigation-list">
-        <li class="navigation-item"><a href="#" class="navigation-list">Наш клуб</a></li>
-        <li class="navigation-item"><a href="#" class="navigation-list">Регаты</a></li>
-        <li class="navigation-item"><a href="#" class="navigation-list">Команда</a></li>
-        <li class="navigation-item"><a href="#" class="navigation-list">Обучение</a></li>
-        <li class="navigation-item"><a href="#" class="navigation-list">Новости</a></li>
-        <li class="navigation-item"><a href="#" class="navigation-list">Контакты</a></li>
+      <ul class="navigation__list">
+        <li class="navigation__item"><a href="#" class="navigation__link">Наш клуб</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link">Регаты</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link">Команда</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link">Обучение</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link">Новости</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link">Контакты</a></li>
       </ul>
     </nav>
-    <ul class="user-menu">
-      <li class="user-menu-item"><img src="" alt=""></li>
+    <ul class="user-menu__list">
+      <li class="user-menu__item">
+        <a class="user-menu__link" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="20" fill="none" viewBox="0 0 18 20">
+            <path stroke="#163152" stroke-linecap="square" stroke-linejoin="round"
+              d="M15.667 19H2.333C1.597 19 1 18.448 1 17.767c0-2.038 1.368-3.863 3.433-4.579l.41-.142a12.753 12.753 0 0 1 8.313 0l.41.142c2.066.716 3.434 2.54 3.434 4.58 0 .68-.597 1.232-1.333 1.232ZM6.967 9.407a4.774 4.774 0 0 0 4.066 0c1.187-.564 2.038-1.591 2.318-2.798l.074-.322c.286-1.234-.02-2.522-.837-3.533l-.12-.148C11.651 1.596 10.365 1 9 1c-1.365 0-2.65.595-3.468 1.606l-.12.148c-.818 1.01-1.123 2.299-.837 3.533l.074.322c.28 1.207 1.13 2.234 2.318 2.798Z" />
+          </svg>
+        </a>
+      </li>
     </ul>
   </header>
-<main>main</main>
-<footer>footer</footer>
+  <main class="page-main">
+    <h1 class="visually-hidden">Яхтный клуб "Под парусом"</h1>
+    <section class="hero">
+      <h2 class="hero__heading">Вместе под парусом</h2>
+      <img class="hero__image" src="image/hero/hero-background.jpg" alt="Фотография яхты на закате" width="1170"
+        height="466">
+    </section>
+    <section class="events">
+      <h2 class="visually-hidden">Наши мероприятия</h2>
+      <ul class="events__list">
+        <li class="events__item">
+          <div class="events__wrapper">
+            <p class="events__date">
+              <time datetime="2023-10-20">20 октября</time> - <time datetime="2023-04-19">19 апреля</time>
+            </p>
+            <h3 class="events__title">Стань частью команды</h3>
+            <p class="events__description">Если вы давно хотели попробовать себя в яхтинге – сейчас самое лучшее время!
+              Мы
+              набираем команду будущих шкиперов. За 6 месяцев вы станете настоящим капитаном и уже в следующем сезоне
+              сможете самостоятельно выйти в море!</p>
+          </div>
+          <img class="events__image" src="image/events/event-team.jpg" alt="Фотография ивента Стань частью команды"
+            width="600" height="262">
+        </li>
+        <li class="events__item events__item--reverse ">
+          <div class="events__wrapper">
+            <p class="events__date">
+              <time datetime="2024-07-16">16 июля</time> - <time datetime="2024-07-23">23 июля</time>
+            </p>
+            <h3 class="events__title">Рожденные в воде</h3>
+            <p class="events__description">Подарите детям настоящее приключение! День с морскими пиратами на корабле –
+              это
+              лучшая команда, веселые аниматоры, игры, соревнования, работа в команде и, конечно, море!</p>
+          </div>
+          <img class="events__image" src="image/events/event-water.jpg" alt="Фотография ивента Рожденные в воде"
+            width="600" height="252">
+        </li>
+      </ul>
+    </section>
+    <section class="services">
+      <h2 class="services__heading">Аренда яхты</h2>
+      <ul class="services__list">
+        <li class="services__item">
+          <a class="services__link" href="#">
+            <img class="services__image" src="image/services/meridian-401.jpg" alt="Фотография Катер Meridian 401"
+              width="310" height="141">
+            <h3 class="services__title">Катер Meridian 401</h3>
+            <p class="services__description">Яхта 401 длиной 12.5 метров и шириной 4.2 метра, вместимостью 11 человек
+            </p>
+          </a>
+          <ul class="services__adventure-list">
+            <li class="services__adventure-item">2 каюты</li>
+            <li class="services__adventure-item">4 спальных места</li>
+            <li class="services__adventure-item">аудиосистема, кондиционер</li>
+            <li class="services__adventure-item">холодильник, микроволновка</li>
+            <li class="services__adventure-item"></li>
+          </ul>
+          <p class="services__price">Цена: <span class="services__price-tag">14000</span></p>
+        </li>
+        <li class="services__item">
+          <a class="services__link" href="#">
+            <img class="services__image" src="image/services/60-manhattan.jpg" alt="Фотография 60 Manhattan" width="310"
+              height="141">
+            <h3 class="services__title">Катер 60 Manhattan</h3>
+            <p class="services__description">Двухпалубное судно VIP уровня длиной 20 метров, вместимостью 10 человек</p>
+          </a>
+          <ul class="services__adventure-list">
+            <li class="services__adventure-item">6 кают</li>
+            <li class="services__adventure-item">носовая часть с огромной подушкой</li>
+            <li class="services__adventure-item">просторный флайбридж</li>
+            <li class="services__adventure-item">оборудованная кухня</li>
+            <li class="services__adventure-item">джакузи</li>
+          </ul>
+          <p class="services__price">Цена: <span class="services__price-tag">25000</span></p>
+        </li>
+        <li class="services__item">
+          <a class="services__link" href="#">
+            <img class="services__image" src="image/services/starfisher-34.jpg" alt="Фотография Starfisher 34"
+              width="310" height="141">
+            <h3 class="services__title">Катер Starfisher 34</h3>
+            <p class="services__description">Моторная яхта длиной 11 метров и вместимостью до 8 человек</p>
+          </a>
+          <ul class="services__adventure-list">
+            <li class="services__adventure-item">4 каюты</li>
+            <li class="services__adventure-item">6 спальных мест</li>
+            <li class="services__adventure-item">аудиосистема, кондиционер</li>
+            <li class="services__adventure-item">холодильник, микроволновка</li>
+            <li class="services__adventure-item">душ, туалет</li>
+          </ul>
+          <p class="services__price">Цена: <span class="services__price-tag">18000</span></p>
+        </li>
+        <li class="services__item">
+          <a class="services__link" href="#">
+            <img class="services__image" src="image/services/pacific-7-13.jpg" alt="Фотография Pacific 7-13" width="310"
+              height="141">
+            <h3 class="services__title">Катер Pacific 7-13</h3>
+            <p class="services__description">Катер Pacific длиной 12 метров и шириной 4.6 метра, вместимостью 8 человек
+            </p>
+          </a>
+          <ul class="services__adventure-list">
+            <li class="services__adventure-item">1 каюта</li>
+            <li class="services__adventure-item">2 спальных места</li>
+            <li class="services__adventure-item">аудиосистема, кондиционер</li>
+            <li class="services__adventure-item">холодильник, микроволновка</li>
+            <li class="services__adventure-item">туалет</li>
+          </ul>
+          <p class="services__price">Цена: <span class="services__price-tag">11000</span></p>
+        </li>
+        <li class="services__item">
+          <a class="services__link" href="#">
+            <img class="services__image" src="image/services/atlantic-3000.jpg" alt="Фотография Atlantic 3000"
+              width="310" height="141">
+            <h3 class="services__title">Катер Atlantic 3000</h3>
+            <p class="services__description">Катер Atlantic длиной 14 метров и вместимостью до 6 человек</p>
+          </a>
+          <ul class="services__adventure-list">
+            <li class="services__adventure-item">2 каюты</li>
+            <li class="services__adventure-item">4 спальных места</li>
+            <li class="services__adventure-item">просторный флайбридж</li>
+            <li class="services__adventure-item">оборудованная кухня</li>
+            <li class="services__adventure-item">душ, туалет</li>
+          </ul>
+          <p class="services__price">Цена: <span class="services__price-tag">15000</span></p>
+        </li>
+      </ul>
+    </section>
+    <section class="gallery">
+      <h2 class="gallery__heading">Галерея</h2>
+      <img class="gallery__image-selected" src="image/gallery/gallery-photo-4-selected.jpg" alt="Фотография моря"
+        width="970" height="690">
+      <ul class="gallery__list">
+        <li class="gallery__item">
+          <a class="gallery__link" href="#">
+            <img class="gallery__image" src="image/gallery/gallery-photo-1.jpg" alt="Фотография моря" width="170"
+              height="150">
+          </a>
+        </li>
+        <li class="gallery__item">
+          <a class="gallery__link" href="#">
+            <img class="gallery__image" src="image/gallery/gallery-photo-2.jpg" alt="Фотография моря" width="170"
+              height="150">
+          </a>
+        </li>
+        <li class="gallery__item">
+          <a class="gallery__link" href="#">
+            <img class="gallery__image" src="image/gallery/gallery-photo-3.jpg" alt="Фотография моря" width="170"
+              height="150">
+          </a>
+        </li>
+        <li class="gallery__item gallery__item--selected">
+          <a class="gallery__link" href="#">
+            <img class="gallery__image" src="image/gallery/gallery-photo-4.jpg" alt="Фотография моря" width="170"
+              height="150">
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer>footer</footer>
+</body>
 
 </html>
